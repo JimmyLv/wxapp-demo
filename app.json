@@ -41,8 +41,8 @@
       {
         "pagePath": "pages/profile/profile",
         "text": "我",
-        "iconPath": "./icons/person.png",
-        "selectedIconPath": "./icons/person_green.png"
+        "iconPath": "icons/person.png",
+        "selectedIconPath": "icons/person_green.png"
       }
     ]
   },
