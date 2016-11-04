@@ -1,12 +1,54 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/explore/explore",
+    "pages/saved/saved",
+    "pages/profile/profile"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+  "window": {
+    "navigationBarBackgroundColor": "#2DBE60",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "WeChat via JimmyLv",
+    "backgroundColor": "#f6f8f9",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "gray",
+    "selectedColor": "#2DBE60",
+    "backgroundColor": "#f6f8f9",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home_green.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "text": "发现",
+        "iconPath": "icons/compass.png",
+        "selectedIconPath": "icons/compass_green.png"
+      },
+      {
+        "pagePath": "pages/saved/saved",
+        "text": "收藏",
+        "iconPath": "icons/heart.png",
+        "selectedIconPath": "icons/heart_green.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我",
+        "iconPath": "./icons/person.png",
+        "selectedIconPath": "./icons/person_green.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
